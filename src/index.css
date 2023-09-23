@@ -5,9 +5,9 @@
 @layer components {
   :root {
     --color-lightest: #fff4e6;
-    --color-light: #ffe8cc;
-    --color-medium: #ffa94d;
-    --color-dark: #ff922b;
+    --color-light: rgb(100, 110, 150);
+    --color-medium: rgb(60, 210, 650);
+    --color-dark: rgb(50, 50, 250);
   }
 
   * {
@@ -40,7 +40,7 @@
 
   .button {
     background-color: var(--color-medium);
-    color: #343a40;
+    color: white;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 7px;
